@@ -1,0 +1,104 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Get rid of default values */
+	--color-*: initial;
+
+	/* Colors*/
+	--color-neutral-0: #ffffff;
+	--color-neutral-200: #d4d3d9;
+	--color-neutral-300: #acacb7;
+	--color-neutral-600: #3c3b5e;
+	--color-neutral-700: #302f4a;
+	--color-neutral-800: #262540;
+	--color-neutral-900: #02012c;
+	--color-orange-500: #ff820a;
+	--color-blue-500: #4658d9;
+	--color-blue-700: #2b1b9c;
+}
+
+@layer components {
+	/* Typography Presets */
+
+	/* Text Preset 1 */
+	.text-preset-1 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 600; /* SemiBold */
+		font-style: italic;
+		font-size: 96px;
+		line-height: 100%;
+		letter-spacing: -2px;
+	}
+
+	/* Text Preset 2 */
+	.text-preset-2 {
+		font-family: 'Bricolage Grotesque', serif;
+		font-weight: 700; /* Bold */
+		font-size: 52px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 3 */
+	.text-preset-3 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 300; /* Light */
+		font-size: 32px;
+		line-height: 100%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 4 */
+	.text-preset-4 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 700; /* Bold */
+		font-size: 28px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 5 */
+	.text-preset-5 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 600; /* SemiBold */
+		font-size: 20px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 5 (Medium) */
+	.text-preset-5-medium {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 500; /* Medium */
+		font-size: 20px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 6 */
+	.text-preset-6 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 500; /* Medium */
+		font-size: 18px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 7 */
+	.text-preset-7 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 500; /* Medium */
+		font-size: 16px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+
+	/* Text Preset 8 */
+	.text-preset-8 {
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 500; /* Medium */
+		font-size: 14px;
+		line-height: 120%;
+		letter-spacing: 0px;
+	}
+}
