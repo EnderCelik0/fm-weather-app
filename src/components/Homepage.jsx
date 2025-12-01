@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import Button from './ui/Button';
 import CountryWeatherCard from './CountryWeatherCard';
 import Searchbar from './ui/Searchbar';
 import WeatherFeatureCards from './WeatherFeatureCards';
@@ -13,7 +12,6 @@ function Homepage() {
 			<Header />
 			<div className='flex flex-col md:flex-row justify-center gap-4 '>
 				<Searchbar />
-				<Button>Search</Button>
 			</div>
 			<section className='grid grid-cols-1 lg:grid-cols-3 space-x-8  '>
 				<div className='lg:col-span-2 space-y-8'>

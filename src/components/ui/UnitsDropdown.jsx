@@ -130,10 +130,9 @@ function UnitSection({
 						className='text-preset-7 flex justify-between  text-left  px-2 py-2.5 hover:bg-neutral-700 rounded-lg
 						
 						focus-visible:ring-1 
-							focus-visible:ring-offset-neutral-600 
-							focus-visible:ring-offset-2 
-							focus-visible:bg-neutral-700 
-						
+						focus-visible:ring-offset-neutral-600 
+						focus-visible:ring-offset-2 
+						focus-visible:bg-neutral-700
 						'
 					>
 						<div className='flex w-full justify-between items-center'>

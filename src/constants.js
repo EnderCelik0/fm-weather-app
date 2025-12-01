@@ -15,3 +15,6 @@ export const weatherIcons = {
 	thunderstorms: storm,
 	rainy: rain,
 };
+
+export const scrollbarStyles =
+	'[&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-neutral-70 [&::-webkit-scrollbar-thumb]:rounded-xl [&::-webkit-scrollbar-thumb]:border [&::-webkit-scrollbar-thumb]:border-neutral-600';

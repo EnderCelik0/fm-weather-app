@@ -1,4 +1,4 @@
-import {weatherIcons} from '../constants';
+import {scrollbarStyles, weatherIcons} from '../constants';
 import DaysDropdown from './ui/DaysDropdown';
 import {AnimatePresence, motion} from 'motion/react';
 
@@ -30,9 +30,6 @@ const hourlyForecasts = [
 ];
 
 export default function HourlyForecasts() {
-	const scrollbarStyles =
-		'[&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-neutral-70 [&::-webkit-scrollbar-thumb]:rounded-xl [&::-webkit-scrollbar-thumb]:border [&::-webkit-scrollbar-thumb]:border-neutral-600';
-
 	return (
 		<section className='overflow-hidden h-full rounded-[20px]'>
 			<div
